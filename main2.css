@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(26, 20, 20);
+
+    -webkit-font-smoothing : antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+.lefttxt{
+    text-align: left;
+    padding-left: 62px;
+}
+
+.ltxt{
+    text-align: left;
+}
+
+.ltxtt{
+    text-align: left;
+    padding-bottom: 80px;
+    padding-left: 60px;
+}
+
+.rtxt{
+    text-align: right;
+    
+}
+
+a {
+    color: antiquewhite;
+}
+
+a:hover, a:focus {
+    color: rgb(252, 143, 246);
+    text-decoration: none;
+    outline: 0;
+}
+
+.navbar-collapse {
+   
+    padding-left: 50px;
+    font-family: "Raleway";
+    background: rgb(34, 28, 28);;
+}
+
+.dropdown-menu {
+    background: rosybrown;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(29, 25, 25);
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+    font-family: "Roboto";
+  
+    background: rgb(34, 28, 28);
+    border-color: rgb(43, 43, 43);
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: 14px;
+    height: 70px;
+    padding-bottom: 15px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+.navbar-toggler {
+    padding-right: 30px;
+}
+
+
+
+
+#headerwrap h1 {
+    margin-top: 100px;
+    color: rgb(32, 11, 5);
+    font-size: 70px;
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#headerwrap3 h1 {
+    margin-top: 100px;
+    color: rgb(236, 236, 236);
+    font-size: 70px;
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+#headerwrap {
+    background: url(../practice/img/f1.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-position: center center;
+    
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
+
+
+
+
+#headerwrap3 {
+    background: url(../practice/img/f3.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    font: bold 3em, sans-serif;
+    
+   
+    background-position: center center;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
+
+
+#headerwrap h2 {
+    margin-top: 100px;
+    color: rgb(61, 13, 13);
+    font-size: 40px;
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#headerwrap3  h2 {
+    margin-top: 100px;
+    
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    color: rgb(255, 238, 238);
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.w {
+    padding-top: 35px;
+    
+}
+
+.w h4 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#dg {
+    background: aliceblue;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.bg5 {
+    background: url(../practice/img/f1.jpg) no-repeat right top;
+    background-position: right right;
+    background-attachment: relative;
+    border-radius: 10px;
+    display: inline;
+    background-size: 100%;
+    
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+    
+}
+
+.bg5left {
+    background: url(../practice/img/f1.jpg) no-repeat left top;
+    background-position: left left;
+    background-attachment: relative;
+    border-radius: 10px;
+    
+    background-size: 100%;
+    
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+    
+}
+.whit {
+   color: antiquewhite;
+}
+.sometxt {
+    font-size: 40px;
+    color: rgb(32, 11, 5);
+    
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+}
+
+
+#dg h4 {
+    font-size: 40px;
+    padding-bottom: 60px;
+    color: rgb(32, 11, 5);
+    
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+}
+
+#dg h5 {
+    font-size: 30px;
+   
+    color: rgb(32, 11, 5);
+   
+    font: bold 3em, sans-serif;
+ 
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+   
+}
+
+.tiltt {
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tiltt:hover {
+    -webkit-transform: rotate(-10deg) ;
+    -ms-transform: rotate(-10deg) ;
+    -o-transform: rotate(-10deg) ;
+    -moz-transform: rotate(-10deg) ;
+    transform: rotate(-10deg) ;
+}
+
+.padds {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tilt {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease;
+    }
+    
+.tilt:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+ }
+
+
+ .tilttt {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease;
+    }
+    
+.tilttt:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+.wb {
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+.wb h4 {
+    font-size: 35px;
+    
+}
+
+#r {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(230, 122, 144);
+    
+}
+
+#r h4 {
+    color: white;
+    font-size: 45px;
+}
+
+#r p {
+    color: white;
+}
+
+
+
+#headerwrap4 {
+    
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-position: center center;
+    
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
+
+
+#headerwrap4 h1 {
+    margin-top: 100px;
+    color: rgb(244, 204, 250);
+    font-size: 70px;
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#headerwrap4 h2 {
+    margin-top: 50px;
+    padding-bottom: 70px;
+    
+    font: bold 3em, sans-serif;
+    
+    text-shadow: #fff -1px -1px 0, 
+                 #333 1px 1px 0;
+    color: rgb(238, 194, 255);
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+#hw1 {
+    background: url(../practice/img/f6.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-position: center center;
+    
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
+
+#hw2 {
+    background: url(../practice/img/f3.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-position: center center;
+    
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
+
+
+#hw3 {
+    background: url(../practice/img/f7.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 500px;
+    background-position: center center;
+    
+    width: 100%;
+    background-size: 100%;
+    background-attachment: relative;
+
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    -ms-background-size : cover;
+}
